@@ -1,0 +1,49 @@
+:root {
+  --text-light-color: #ffffff;
+  --dark-bg-color: #0a001b;
+  --text-dark-color: #0a001b;
+  --light-bg-color: #fafeff;
+  --primary-color: #2f0081;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: var(--dark-bg-color);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 2vh;
+  color: var(--text-light-color);
+  letter-spacing: 0.1vh;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  color: var(--text-light-color);
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar {
+  width: 0.5vh;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

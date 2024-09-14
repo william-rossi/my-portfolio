@@ -1,0 +1,21 @@
+{
+    "welcome": {
+        "title": "Bem-vindo.",
+        "description": "Sou William Ruiz, atuo como Desenvolvedor Full Stack, aplico minhas habilidades em React, Next.js, JavaScript, TypeScript, HTML, CSS, SCSS, C# e Azure DevOps, como foco principal o front-end da aplicação, para desenvolver e otimizar aplicações web modernas e responsivas. Minha formação em Ciência da Computação complementa meu conhecimento técnico, me permitindo solucionar problemas complexos e melhorar processos de forma eficaz.",
+        "location": "São José do Rio Preto, São Paulo - Brasil"
+    },
+    "skills": {
+        "title": "Tecnologias",
+        "description": "Recursos que utilizo para construir aplicações."
+    },
+    "projects": {
+        "title": "Projetos",
+        "description": "Alguns projetos que já desenvolvi.",
+        "dw": "Projeto para landing page construído com Next.js, TypeScript e Sass que permite aos usuários personalizarem o site de acordo com suas preferências. Os usuários podem escolher entre vários temas pré-definidos, diferentes tipos de fontes e trocar imagens nas seções para uma visualização personalizada.",
+        "dm": "Programa feito em Windows Forms que organiza automaticamente os arquivos desejados do computador, com opção de personalização nos diretórios do sistema. Site para download construído com React.js.",
+        "p": "Este portfólio foi construído com Next.js na versão 14 e conta com suporte para internacionalização utilizando next-intl (i18n), neste projeto listo algumas tecnologias que utilizo para construção de aplicações."
+    },
+    "cv": {
+        "title": "Conferir CV"
+    }
+}

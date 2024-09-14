@@ -1,0 +1,82 @@
+@import '../../styles/functions.scss';
+
+.container {
+    background-color: var(--light-bg-color);
+    color: var(--text-dark-color);
+    padding: 2vh;
+    padding: 5vh 2vh;
+    flex-direction: column;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+
+    @media screen and (orientation: portrait) {
+        clip-path: polygon(20% 0%, 80% 0%, 100% 4%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 4%);
+    }
+}
+
+.titleArea {
+    @include flexCenter;
+    flex-direction: column;
+    gap: 1.5vh;
+    margin-bottom: 5vh;
+    cursor: default;
+
+    @media screen and (orientation: portrait) {
+        text-align: center;
+    }
+
+    &>h2 {
+        font-weight: 500;
+        font-size: 7vh;
+        color: var(--text-dark-color);
+
+        @media screen and (orientation: portrait) {
+            font-size: 5vh;
+        }
+    }
+
+    &>p {
+        color: var(--text-dark-color);
+    }
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    gap: 7vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    width: 12vh;
+    height: 12vh;
+    opacity: 0;
+
+    @media screen and (orientation: portrait) {
+        width: 7vh;
+        height: 7vh
+    }
+
+    flex-shrink: 0;
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.show {
+    animation: showSkill ease forwards;
+}
+
+@keyframes showSkill {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

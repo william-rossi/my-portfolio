@@ -1,0 +1,30 @@
+@import '../../styles/functions.scss';
+
+.container {
+    @include flexCenter;
+    padding: 4vh 2vh 10vh 2vh;
+    background-color: var(--light-bg-color);
+}
+
+.btn {
+    padding: 1.5vh 2.5vh;
+    border: 0.2vh solid var(--primary-color);
+    border-radius: 1vh;
+    font-weight: 600;
+    transition: .2s;
+    background-color: var(--primary-color);
+    color: var(--text-light-color);
+
+    @media screen and (orientation: landscape) {
+        &:hover {
+            background-color: var(--light-bg-color);
+            color: var(--primary-color);
+        }
+    }
+
+    @media screen and (orientation: portrait) {
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}

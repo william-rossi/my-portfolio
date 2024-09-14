@@ -1,0 +1,42 @@
+@import '../../styles/functions.scss';
+
+.container {
+    background-color: var(--light-bg-color);
+    color: var(--text-dark-color);
+    padding: 2vh;
+    padding: 5vh 2vh;
+    flex-direction: column;
+}
+
+.titleArea {
+    @include flexCenter;
+    flex-direction: column;
+    gap: 1.5vh;
+    margin-bottom: 5vh;
+    cursor: default;
+
+    @media screen and (orientation: portrait) {
+        text-align: center;
+    }
+
+    &>h2 {
+        font-weight: 500;
+        font-size: 7vh;
+        color: var(--text-dark-color);
+
+        @media screen and (orientation: portrait) {
+            font-size: 5vh;
+        }
+    }
+
+    &>p {
+        color: var(--text-dark-color);
+    }
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
