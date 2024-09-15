@@ -9,4 +9,4 @@
 - **next-intl** – Internationalization support for a seamless multilingual experience.
 
 Published and deployed on **Vercel**.  
-[Check it out here](https://my-portfolio-ebon-xi-67.vercel.app/)
+[Check it out here](https://william-ruiz.vercel.app/)
