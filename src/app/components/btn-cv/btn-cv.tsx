@@ -8,11 +8,11 @@ import { useTranslations } from 'next-intl';
 export default function BtnCv() {
     const t = useTranslations('cv');
 
-    const [cv, setCv] = useState("https://drive.google.com/file/d/1j-YOJB97wnIevgRDtMlZGlWYrsKEznXa/view?usp=sharing")
+    const [cv, setCv] = useState("https://docs.google.com/document/d/1w_l_pzVRYEoheRNNxdXyvtjhw1iGBRY5aQD5TxqpJjY/edit?usp=sharing")
 
     useEffect(() => {
         if (typeof window !== 'undefined' && window.navigator.language !== 'pt-BR')
-            setCv("https://drive.google.com/file/d/1R7yHYYRAl0zA_JzqeVLo7SgCjKFsIqpR/view?usp=sharing")
+            setCv("https://docs.google.com/document/d/1EYh4xXVhThQsV3qhCQe33oR3QRj4jXeEgH8eg5k5mfQ/edit?usp=sharing")
     }, [])
 
     return (
