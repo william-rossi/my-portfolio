@@ -11,9 +11,10 @@
     "projects": {
         "title": "Projects",
         "description": "Some projects I have already developed.",
-        "dw": "Landing page project built with Next.js, TypeScript and Sass that allows users to customize the site according to their preferences. Users can choose from several pre-defined themes, different font types, and swap images across sections for a personalized view.",
-        "dm": "Program made in Windows Forms that automatically organizes the desired files on the computer, with the option of customizing the system directories. Downloadable site built with React.js.",
-        "p": "This portfolio was built with Next.js in version 14 and has support for internationalization using next-intl (i18n), in this project I list some technologies that I use to build applications."
+        "dummywebsite": "Landing page project built with Next.js, TypeScript and Sass that allows users to customize the site according to their preferences. Users can choose from several pre-defined themes, different font types, and swap images across sections for a personalized view.",
+        "desktopmanager": "Program made in Windows Forms that automatically organizes the desired files on the computer, with the option of customizing the system directories. Downloadable site built with React.js.",
+        "portfolio": "This portfolio was built with Next.js in version 14 and has support for internationalization using next-intl (i18n), in this project I list some technologies that I use to build applications.",
+        "valspector": "Get your metrics from the VALORANT tactical online game, see your last matches played, ranking statistics and information about the desired account. This project uses an API to access real game data."
     },
     "cv": {
         "title": "Checkout CV"

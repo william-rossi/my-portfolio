@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Noto_Sans } from 'next/font/google'
 import "./styles/globals.scss";
-import Footer from "./components/footer/footer";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import Footer from "@/components/footer/footer";
 
 const noto = Noto_Sans({ subsets: ['latin'] })
 

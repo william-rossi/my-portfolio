@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles.module.scss'
-import computer from '../../../images/home/computer.png'
 import { useTranslations } from 'next-intl';
 
 export default function Welcome() {
@@ -14,7 +13,7 @@ export default function Welcome() {
         <span><div className={styles.dot} /> {t('location')}</span>
       </div>
       <div className={styles.imageArea}>
-        <img draggable={false} src={computer.src} alt='computer' />
+        <img draggable={false} src={'/images/home/computer.png'} alt='computer' />
       </div>
     </section>
   )

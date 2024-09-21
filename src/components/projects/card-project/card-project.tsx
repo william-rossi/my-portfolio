@@ -13,7 +13,7 @@ export default function CardProject({ project, animationDuration, showProject }:
     return (
         <div style={{ animationDuration: animationDuration + 's' }} className={`${styles.container} ${showProject && styles.show}`}>
             <div className={styles.imageArea}>
-                <img draggable={false} src={project.cover.src} alt={project.name} />
+                <img draggable={false} src={project.cover} alt={project.name} />
                 <div className={styles.gradient} />
             </div>
             <div className={styles.description}>

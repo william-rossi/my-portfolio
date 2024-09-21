@@ -4,9 +4,6 @@ import React, { useEffect, useId, useState } from 'react'
 import styles from './styles.module.scss'
 import CardProject from './card-project/card-project'
 import { StaticImageData } from 'next/image'
-import dm from '../../../images/projects/project-dm.png'
-import dw from '../../../images/projects/project-dw.png'
-import p from '../../../images/projects/project-p.png'
 import { SvgGithub, SvgWeb } from '@/svgs/icons'
 import { useTranslations } from 'next-intl'
 
@@ -16,7 +13,7 @@ interface LinkProps {
 }
 
 export interface ProjectProps {
-    cover: StaticImageData
+    cover: string
     name: string
     description: string
     technologies: string[]
@@ -30,28 +27,38 @@ export default function Projects() {
 
     const projects: ProjectProps[] = [
         {
-            cover: dw,
+            cover: '/images/projects/valspector.png',
+            name: "VALSPECTOR",
+            description: t('valspector'),
+            technologies: ['Next.js', 'Typescript', 'Sass'],
+            links: [
+                { link: "https://valspector.vercel.app/", svg: <SvgWeb /> },
+                { link: "https://github.com/william-rossi/valspector", svg: <SvgGithub /> }
+            ]
+        },
+        {
+            cover: '/images/projects/dummy-website.png',
             name: "Dummy Website",
-            description: t('dw'),
-            technologies: ['Next.js', 'React.js', 'Typescript', 'Sass'],
+            description: t('dummywebsite'),
+            technologies: ['Next.js', 'Typescript', 'Sass'],
             links: [
                 { link: "https://dummy-website-omega.vercel.app/", svg: <SvgWeb /> },
                 { link: "https://github.com/william-rossi/dummy-website", svg: <SvgGithub /> }
             ]
         },
         {
-            cover: dm,
+            cover: '/images/projects/desktop-manager.png',
             name: "Desktop Manager",
-            description: t('dm'),
+            description: t('desktopmanager'),
             technologies: ['Windows Forms', 'C#', 'SQLite'],
             links: [
                 { link: "https://desktopmanager.netlify.app/", svg: <SvgWeb /> }
             ]
         },
         {
-            cover: p,
+            cover: '/images/projects/portfolio.png',
             name: "My portfolio!",
-            description: t('p'),
+            description: t('portfolio'),
             technologies: ['Next.js', 'Typescript', 'Sass', 'i18n'],
             links: [
                 { link: "https://github.com/william-rossi/my-portfolio", svg: <SvgGithub /> }
