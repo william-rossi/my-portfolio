@@ -14,7 +14,7 @@
         "dummywebsite": "Projeto para landing page construído com Next.js, TypeScript e Sass que permite aos usuários personalizarem o site de acordo com suas preferências. Os usuários podem escolher entre vários temas pré-definidos, diferentes tipos de fontes e trocar imagens nas seções para uma visualização personalizada.",
         "desktopmanager": "Programa feito em Windows Forms que organiza automaticamente os arquivos desejados do computador, com opção de personalização nos diretórios do sistema. Site para download construído com React.js.",
         "portfolio": "Este portfólio foi construído com Next.js na versão 14 e conta com suporte para internacionalização utilizando next-intl (i18n), neste projeto listo algumas tecnologias que utilizo para construção de aplicações.",
-        "valspector": "Obtenha suas métricas do jogo online tático VALORANT, veja suas últimas partidas jogadas, estatísticas de ranking e informações a conta desejada. Este projeto utiliza uma API para acessar dados reais do jogo."
+        "valspector": "Obtenha suas métricas do jogo online tático VALORANT, veja suas últimas partidas jogadas, estatísticas de ranking e informações da conta desejada. Este projeto utiliza uma API para acessar dados reais do jogo."
     },
     "cv": {
         "title": "Conferir CV"
