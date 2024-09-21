@@ -3,7 +3,6 @@
 import React, { useEffect, useId, useState } from 'react'
 import styles from './styles.module.scss'
 import CardProject from './card-project/card-project'
-import { StaticImageData } from 'next/image'
 import { SvgGithub, SvgWeb } from '@/svgs/icons'
 import { useTranslations } from 'next-intl'
 
