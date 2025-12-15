@@ -29,7 +29,7 @@ export default function Projects() {
             cover: '/images/projects/pontocarro.png',
             name: ".CARRO",
             description: t('pontocarro'),
-            technologies: ['Next.js', 'Typescript', 'CSS', 'Node.js'],
+            technologies: ['Next.js', 'Typescript', 'CSS', 'Node.js', 'MongoDB'],
             links: [
                 { link: "https://pontocarro.com", svg: <SvgWeb /> }
             ]
