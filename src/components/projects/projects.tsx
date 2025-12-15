@@ -26,6 +26,15 @@ export default function Projects() {
 
     const projects: ProjectProps[] = [
         {
+            cover: '/images/projects/pontocarro.png',
+            name: ".CARRO",
+            description: t('pontocarro'),
+            technologies: ['Next.js', 'Typescript', 'CSS', 'Node.js'],
+            links: [
+                { link: "https://pontocarro.com", svg: <SvgWeb /> }
+            ]
+        },
+        {
             cover: '/images/projects/valspector.png',
             name: "VALSPECTOR",
             description: t('valspector'),
